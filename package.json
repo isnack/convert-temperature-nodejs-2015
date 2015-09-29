@@ -1,0 +1,22 @@
+{
+  "name": "convert-temperature-nodejs",
+  "version": "1.0.0",
+  "description": "\"\"\u001b[DConverte temperatures app with NodeJS\"",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "convert",
+    "temperatures",
+    "NodeJS",
+    "js",
+    "javascript",
+    "html"
+  ],
+  "author": "Isnack",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.13.3"
+  }
+}

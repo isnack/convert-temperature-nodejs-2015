@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+<title>Convert Temperatures</title>
+
+
+
+</head>
+<body>
+<form id="temperaturas" action="">
+ <fieldset>
+   <legend>
+     Conversor de Temperaturas
+   </legend>
+   <label> 
+     Informe a Temperatura
+   </label>
+   <input type="text" id="numTemp"/>
+   <input type="radio" name="temp" checked value="celsius"/>
+   <label>Celsius para Fahrenheit</label>    
+   <input type="radio" value="fahrenheit" name="temp"/>
+   <label>Fahrenheit para Celsius</label>
+   <input type="submit" value="Enviar"/>
+   <label>Resultado:</label>
+  <div id="result"></div>
+  </fieldset>
+  
+</form>
+
+<script src="//code.jquery.com/jquery-1.11.3.min.js"></script>
+<script src="js/TEMPServices.js"></script>
+<script src="js/TEMPController.js"></script>
+</body>
+</html>
